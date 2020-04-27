@@ -13,6 +13,6 @@ services:
       - "3000:3000" # port
       
   database: 
-    image: mongo # image
+    image: mongo # image of MongoDB
     ports:
       - "27017:27017" # port
